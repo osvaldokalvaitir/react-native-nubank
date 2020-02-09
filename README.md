@@ -36,12 +36,12 @@ Aplicação Nubank usando React Native, React Navigation, React Native Gesture H
 
 ### Card
 
-![Card](/assets/card.png)
+![Card](/.github/assets/card.png)
 Esta é a tela inicial, quando arrasta o card para baixo, aparece o menu que está por trás dele, sendo possível também fazer a rolagem horizontal nas tabs do rodapé.
 
 ### Menu
 
-![Menu](/assets/menu.png)
+![Menu](/.github/assets/menu.png)
 É o menu que aparece quando o card é arrastado para baixo.
 
 ## Desenvolvimento
