@@ -1,97 +1,64 @@
-# React Native - Nubank
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-nubank/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-nubank.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-nubank.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-nubank.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-nubank.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-nubank.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-nubank.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - Nubank
+</h3>
 
-Aplicação Nubank usando React Native, React Navigation, React Native Gesture Handler, React Native Vector Icons, styled-components, react-native-iphone-x-helper, react-native-qrcode-svg, react-native-svg e react-native-reanimated.
+<p align="center">
+  :credit_card: Nubank Application using React Native, React Navigation, React Native Gesture Handler, React Native Vector Icons, styled-components, react-native-iphone-x-helper, react-native-qrcode-svg, react-native-svg and react-native-reanimated
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-nubank.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-nubank.svg?color=00A83A">
 
-  - [Card](#card)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Menu](#menu)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :iphone: Demo
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+![Demo](/.github/assets/demo.gif)
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :wrench: Install and run
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-nubank
 
-## Capturas de Tela
+# Entry in folder
+cd react-native-nubank
 
-### Card
+# Install deps with npm or yarn
+npm install | yarn
 
-![Card](/.github/assets/card.png)
-Esta é a tela inicial, quando arrasta o card para baixo, aparece o menu que está por trás dele, sendo possível também fazer a rolagem horizontal nas tabs do rodapé.
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-### Menu
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-![Menu](/.github/assets/menu.png)
-É o menu que aparece quando o card é arrastado para baixo.
+## :memo: License
 
-## Desenvolvimento
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-### Configuração do Ambiente
+---
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Babel Root Import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-plugin-root-import.md)
-
-- [babel-eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-eslint.md)
-
-- [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [ESLint plugin for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react-native.md)
-
-- [eslint-import-resolver-babel-plugin-root-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-import-resolver-babel-plugin-root-import.md)
-
-- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native Vector Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-vector-icons.md)
-
-- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [react-native-iphone-x-helper](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-iphone-x-helper.md)
-
-- [react-native-qrcode-svg](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-qrcode-svg.md)
-
-- [react-native-svg](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-svg.md)
-
-- [react-native-reanimated](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-reanimated.md)
-
-- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
-
-- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
